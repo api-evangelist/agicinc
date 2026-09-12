@@ -1,10 +1,20 @@
 aid: agicinc
-name: Agicinc
-description: 'Agicinc is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+name: Elephantech
+description: 'Elephantech Inc. (founded January 2014 in Tokyo as AgIC Inc., renamed
+  Elephantech in September 2017) develops, manufactures and sells precision metal
+  inkjet printing equipment, advanced conductive materials, and flexible printed
+  circuit board products, including its SustainaCircuits multilayer PCB line and
+  NeuralJet printing technology. The company positions itself as decarbonizing
+  electronics manufacturing by replacing subtractive copper etching with additive
+  inkjet deposition. It is a hardware and materials manufacturer with roughly 150
+  employees, headquartered at 4-3-8 Hatchobori, Chuo-ku, Tokyo; it publishes no
+  developer program, public API, SDK or machine-readable API contract.'
+image: https://elephantech.com/cms/wp-content/uploads/2024/08/elephantech_corpweb_ptc_topview.png
 url: https://raw.githubusercontent.com/api-evangelist/agicinc/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
+x-harvest-url: https://equityzen.com/company/agicinc
+x-former-name: AgIC Inc.
 x-tier: stub
 x-tier-reason: harvest
 specificationVersion: '0.20'
@@ -12,6 +22,38 @@ created: '2026-09-12'
 modified: '2026-09-12'
 tags:
 - Company
+- Manufacturing
+- Electronics
+- Hardware
+- Printed Circuit Boards
+- Materials
+- Sustainability
+- Japan
+x-enrichment:
+  date: '2026-09-12'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Elephantech (the current name of AgIC Inc.) manufactures inkjet printing
+    equipment, conductive materials and flexible printed circuit boards — physical
+    goods — and its 64-page WordPress marketing site has no developer, API or
+    reference section at all; every probed contract path redirects to the site root.
+  evidence:
+  - url: https://elephantech.com/openapi.json
+    status: 302
+  - url: https://elephantech.com/.well-known/agent-card.json
+    status: 302
+  - url: https://elephantech.com/llms.txt
+    status: 302
+  - url: https://elephantech.com/sitemap.xml
+    status: 200
+  - url: https://elephantech.com/en/
+    status: 200
+  checked: '2026-09-12'
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +61,17 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/agicinc-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/agicinc
+  url: https://elephantech.com/en/
+- type: Blog
+  url: https://elephantech.com/en/news/
+- type: BlogRSS
+  url: https://elephantech.com/feed/
+- type: GitHubOrganization
+  url: https://github.com/elephantech
+- type: PrivacyPolicy
+  url: https://elephantech.com/en/privacy-policy/
+- type: Contact
+  url: https://elephantech.com/en/inquiry/

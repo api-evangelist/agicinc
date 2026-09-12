@@ -1,0 +1,93 @@
+generated: '2026-09-12'
+method: probed
+source: live HTTP probes of every host this record knows
+note: >-
+  Every /.well-known/* path on elephantech.com answers 302 to the site root
+  (https://elephantech.com/, HTTP 200, text/html) and every path on the legacy
+  agic.cc domain answers 301 to the same place. This is a WordPress catch-all
+  soft-404, not a served document, so NO WellKnown or SecurityTxt pointer is
+  emitted — the probe records an absence, and an absence is not a presence.
+  Recorded 2026-09-12 for Elephantech Inc., formerly AgIC Inc.; agic.cc is the
+  company's legacy AgIC-era domain and redirects to elephantech.com.
+hosts:
+- host: elephantech.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 302
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 302
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 302
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 302
+    file: null
+  - path: /.well-known/api-catalog
+    status: 302
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 302
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 302
+    file: null
+  - path: /.well-known/agent.json
+    status: 302
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 302
+    file: null
+- host: www.elephantech.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 301
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+    file: null
+  - path: /.well-known/api-catalog
+    status: 301
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 301
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 301
+    file: null
+  - path: /.well-known/agent.json
+    status: 301
+    file: null
+- host: agic.cc
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 301
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 301
+    file: null
+  - path: /.well-known/api-catalog
+    status: 301
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 301
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 301
+    file: null
+  - path: /.well-known/agent.json
+    status: 301
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 301
+    file: null

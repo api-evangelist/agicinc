@@ -1,4 +1,4 @@
-# Agicinc
+# Elephantech (formerly AgIC Inc.)
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,27 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Agicinc is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/agicinc
+The `agicinc` slug came from the API Evangelist harvest backlog (source: secondary-market), where
+EquityZen still lists the company under its original name. **AgIC Inc.** was founded in Tokyo in
+January 2014 and renamed **Elephantech Inc.** in September 2017; its legacy `agic.cc` domain now
+redirects to `elephantech.com`.
+
+Elephantech develops, manufactures and sells precision metal inkjet printing equipment, advanced
+conductive materials, and flexible printed circuit board products — including the SustainaCircuits
+multilayer PCB line and NeuralJet printing technology — with the stated aim of decarbonizing
+electronics manufacturing by replacing subtractive copper etching with additive inkjet deposition.
+It is a hardware and materials manufacturer (~150 employees, Chuo-ku, Tokyo), not a software vendor.
+
+**No API surface.** A full contract-discovery pass on 2026-09-12 found no developer program, no
+public API, no SDK and no machine-readable contract. Every `/.well-known/*`, `/openapi.json`,
+`/swagger.json`, `/api-docs`, `/llms.txt` and `/graphql` path on `elephantech.com`,
+`www.elephantech.com` and `agic.cc` answers a catch-all redirect to the site root. The company's
+64-page sitemap contains no developer, API or reference section. The only machine-readable REST
+surface on the domain is the stock WordPress core REST API at `/wp-json` that ships with the
+marketing CMS — a platform default, not a product API, so it is not registered here as one. The
+GitHub organization `elephantech` is real but holds four internal Gerber/PDF tooling repositories,
+no client library.
+
+- Company: https://elephantech.com/en/
+- GitHub: https://github.com/elephantech
+- Harvest source: https://equityzen.com/company/agicinc
