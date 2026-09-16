@@ -1,0 +1,21 @@
+{
+  "repo": "agicinc",
+  "feeds": [
+    {
+      "source": "https://elephantech.com/en/news/",
+      "feed_url": "https://elephantech.com/en/news/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://elephantech.com/en/",
+      "feed_url": "https://elephantech.com/en/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-09-13T13:00:00Z"
+}
