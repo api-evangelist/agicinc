@@ -1,4 +1,4 @@
-# Elephantech (formerly AgIC Inc.)
+# Elephantech
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,27 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-The `agicinc` slug came from the API Evangelist harvest backlog (source: secondary-market), where
-EquityZen still lists the company under its original name. **AgIC Inc.** was founded in Tokyo in
-January 2014 and renamed **Elephantech Inc.** in September 2017; its legacy `agic.cc` domain now
-redirects to `elephantech.com`.
+Elephantech Inc. (founded January 2014 in Tokyo as AgIC Inc., renamed Elephantech in September 2017) develops, manufactures and sells precision metal inkjet printing equipment, advanced conductive materials, and flexible printed circuit board products, including its SustainaCircuits multilayer PCB line and NeuralJet printing technology. The company positions itself as decarbonizing electronics manufacturing by replacing subtractive copper etching with additive inkjet deposition. It is a hardware and materials manufacturer with roughly 150 employees, headquartered at 4-3-8 Hatchobori, Chuo-ku, Tokyo; it publishes no developer program, public API, SDK or machine-readable API contract.
 
-Elephantech develops, manufactures and sells precision metal inkjet printing equipment, advanced
-conductive materials, and flexible printed circuit board products — including the SustainaCircuits
-multilayer PCB line and NeuralJet printing technology — with the stated aim of decarbonizing
-electronics manufacturing by replacing subtractive copper etching with additive inkjet deposition.
-It is a hardware and materials manufacturer (~150 employees, Chuo-ku, Tokyo), not a software vendor.
+**Areas:** Company · Manufacturing · Electronics · Hardware · Printed Circuit Boards · Materials · Sustainability · Japan
 
-**No API surface.** A full contract-discovery pass on 2026-09-12 found no developer program, no
-public API, no SDK and no machine-readable contract. Every `/.well-known/*`, `/openapi.json`,
-`/swagger.json`, `/api-docs`, `/llms.txt` and `/graphql` path on `elephantech.com`,
-`www.elephantech.com` and `agic.cc` answers a catch-all redirect to the site root. The company's
-64-page sitemap contains no developer, API or reference section. The only machine-readable REST
-surface on the domain is the stock WordPress core REST API at `/wp-json` that ships with the
-marketing CMS — a platform default, not a product API, so it is not registered here as one. The
-GitHub organization `elephantech` is real but holds four internal Gerber/PDF tooling repositories,
-no client library.
+## Elephantech on APIs.io
 
-- Company: https://elephantech.com/en/
-- GitHub: https://github.com/elephantech
-- Harvest source: https://equityzen.com/company/agicinc
+Everything profiled for Elephantech is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agicinc/](https://apis.io/providers/agicinc/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agicinc Domain Security](https://apis.io/security/agicinc/agicinc-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://elephantech.com/en/)
+- [Blog](https://elephantech.com/en/news/)
+- [Privacy policy](https://elephantech.com/en/privacy-policy/)
+- [GitHub](https://github.com/elephantech)
+
+## API Evangelist rating
+
+**Kin Score 6.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 9.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agicinc/](https://apis.io/providers/agicinc/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Elephantech: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agicinc/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
